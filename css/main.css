@@ -2616,11 +2616,11 @@ html.no-csstransitions .home-content__main {
 
 .s-testimonials {
     background-color: #0D0A0B;
-    background-image: url("../images/testimonial-bg.jpg");
+    background-image: url("../images/duomo.jpg");
     background-repeat: no-repeat;
     background-position: center, center;
     padding-top: 9.6rem;
-    padding-bottom: 10.2rem;
+    padding-bottom: 9.6rem;
     color: rgba(255, 255, 255, 0.5);
     position: relative;
 }
@@ -2631,7 +2631,7 @@ html.no-csstransitions .home-content__main {
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: .85;
+    opacity: .80;
     background-color: #0D0A0B;
 }
 
