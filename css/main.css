@@ -2620,6 +2620,7 @@ html.no-csstransitions .home-content__main {
     background-image: url("../images/duomo.jpg");
     background-repeat: no-repeat;
     background-position: center, center;
+    background-size: cover;
     padding-top: 9.6rem;
     padding-bottom: 9.6rem;
     color: rgba(255, 255, 255, 0.5);
@@ -3045,6 +3046,7 @@ html.no-csstransitions .home-content__main {
     background-image: url("../images/mcway.JPG");
     background-repeat: no-repeat;
     background-position: center, center;
+    background-size: cover;
     padding-top: 13.2rem;
     padding-bottom: 12rem;
     color: rgba(255, 255, 255, 0.5);
@@ -4136,5 +4138,156 @@ article.blog-single .blog-content {
     }
     .commentlist .comment__avatar {
         display: none;
+    }
+}
+
+
+/* ===================================================================
+ * # videos carousel - custom
+ *
+ * ------------------------------------------------------------------- */
+
+.videos__slider {
+    position: relative;
+    margin-top: 3rem;
+}
+
+.videos__slider .slick-slide {
+    outline: none;
+}
+
+.videos__slider .slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #000000;
+    border-radius: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    background-color: rgba(0, 0, 0, 0.15);
+    border: none;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0);
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    z-index: 100;
+}
+
+.videos__slider .slick-arrow .im {
+    font-size: 1.2rem;
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    text-align: center;
+}
+
+.videos__slider .slick-arrow:hover,
+.videos__slider .slick-arrow:focus {
+    color: #000000;
+    box-shadow: 0 0 0 3px #000000;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.videos__slider .slick-prev {
+    left: -6rem;
+}
+
+.videos__slider .slick-next {
+    right: -6rem;
+}
+
+.videos__slider .slick-dots {
+    display: block;
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    margin: 3rem 0 0 0;
+    text-align: center;
+    position: relative;
+}
+
+.videos__slider .slick-dots li {
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    margin: 0;
+    padding: 9px;
+    cursor: pointer;
+}
+
+.videos__slider .slick-dots li button {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #999999;
+    border: none;
+    line-height: 10px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+}
+
+.videos__slider .slick-dots li button:hover,
+.videos__slider .slick-dots li button:focus {
+    outline: none;
+}
+
+.videos__slider .slick-dots li.slick-active button,
+.videos__slider .slick-dots li:hover button {
+    background: #375636;
+}
+
+.videos__slide {
+    position: relative;
+    padding: 0 1rem;
+}
+
+.video-item {
+    text-center: center;
+    margin-bottom: 3rem;
+}
+
+.video-category {
+    margin: 0 0 1rem 0;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-title {
+    margin: 0 0 2rem 0;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.8rem;
+}
+
+@media only screen and (max-width: 1000px) {
+    .videos__slider .slick-prev {
+        left: 0;
+    }
+    .videos__slider .slick-next {
+        right: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .videos__slider .slick-arrow {
+        top: -6rem;
+    }
+    .videos__slider .slick-prev {
+        left: 1rem;
+    }
+    .videos__slider .slick-next {
+        right: 1rem;
+    }
+    .videos__slide {
+        padding: 0;
     }
 }

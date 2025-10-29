@@ -223,6 +223,18 @@
             ]
         });
 
+        $('.videos__slider').slick({
+            arrows: true,
+            dots: true,
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            prevArrow: "<div class=\'slick-prev\'><i class=\'im im-arrow-left\' aria-hidden=\'true\'></i></div>",
+            nextArrow: "<div class=\'slick-next\'><i class=\'im im-arrow-right\' aria-hidden=\'true\'></i></div>",
+            pauseOnFocus: false,
+            autoplay: false
+        });
+
     };
 
 
