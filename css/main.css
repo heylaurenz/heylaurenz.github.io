@@ -2342,7 +2342,17 @@ html.no-csstransitions .home-content__main {
         padding-left: 0;
     }
     .timeline__block {
-        padding-left: 5.5rem;
+        padding-left: 4.5rem;
+    }
+}
+
+/* Make work experience section wider on mobile */
+@media only screen and (max-width: 600px) {
+    #work-experience .col-one {
+        display: none;
+    }
+    #work-experience .col-ten {
+        width: 100%;
     }
 }
 
