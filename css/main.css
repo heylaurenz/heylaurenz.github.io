@@ -3112,8 +3112,10 @@ html.no-csstransitions .home-content__main {
 }
 
 .contact__main {
-    max-width: 900px;
+    max-width: 1300px;
     position: relative;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .contact__main h4 {
@@ -3122,6 +3124,26 @@ html.no-csstransitions .home-content__main {
 
 .contact__infos {
     font-size: 1.5rem;
+}
+
+.contact__main .col-three:nth-child(1) {
+    width: 18%;
+    padding: 0 15px 0 20px;
+}
+
+.contact__main .col-three:nth-child(2) {
+    width: 18%;
+    padding: 0 10px;
+}
+
+.contact__main .col-three:nth-child(3) {
+    width: 23%;
+    padding: 0 20px;
+}
+
+.contact__main .col-three:nth-child(4) {
+    width: 41%;
+    padding: 0 20px;
 }
 
 .contact__form {
