@@ -47,8 +47,6 @@
         <nav class="header-nav-wrap">
             <ul class="header-nav">
                 <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
-                <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
-                <li><a class="smoothscroll"  href="#works" title="works">Portfolio</a></li>
                 <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
             </ul>
         </nav>
@@ -76,11 +74,11 @@
                 </h1>
 
                 <div class="home-content__buttons">
-                    <a href="#works" class="smoothscroll btn btn--stroke">
+                    <a href="#work-experience" class="smoothscroll btn btn--stroke">
                         Latest Work
                     </a>
                     <a href="#about" class="smoothscroll btn btn--stroke">
-                        More About Me
+                        About Me
                     </a>
                 </div>
 
@@ -123,7 +121,7 @@
         <div class="row section-intro has-bottom-sep" style="max-width: 850px; margin: 0 auto;">
             <div class="col-full text-center">
                 <h3>Intro</h3>
-                <h1>More About Me</h1>
+                <h1>About Me</h1>
                 <p class="lead">My expertise is in AI and product quality, building products that ✨work like magic✨. I'm super plugged into the AI community and latest tech/trends. I'm endlessly curious, product minded, and want to build products that win and stay winners. Talk to me about context engineering, LLM as a judge, or the future of Agents! 🤖 <br><br>Outside of work, I'm all about singing+guitar/piano 🎶🎸, DJing house at parties 🎧, double black skiing ⛷️, wilderness photography 🌄, and fashion 👠. </p>
             </div>
         </div>
@@ -143,7 +141,7 @@
 
         </div> <!-- end about-content buttons -->
 
-        <div class="row about-content about-content--timeline">
+        <div id="work-experience" class="row about-content about-content--timeline">
 
             <div class="col-full text-center">
                 <h3>My Work Experience.</h3>
@@ -249,6 +247,28 @@
         <div class="row testimonials">
 
             <div class="col-full testimonials__slider">
+                <div class="testimonials__slide">
+                    <img src="images/avatars/skiing.jpg" alt="Author image" class="testimonials__avatar">
+                    <div class="testimonials__author h06">
+                        Skiing
+                    </div>
+                    <p> My latest obsession. I'm a speed demon (63 mph) and aspiring park rat, but I looove me a good powder day. </p>
+                </div>
+                <div class="testimonials__slide">
+                    <img src="images/avatars/dj.jpg" alt="Author image" class="testimonials__avatar">
+                    <div class="testimonials__author h06">
+                        DJing
+                    </div>
+                    <p> Who doesn't love a good time? House music is my jam and I love bringing friends together to dance and vibe</p>
+                </div>
+
+                <div class="testimonials__slide">
+                    <img src="images/avatars/guitar-min.jpg" alt="Author image" class="testimonials__avatar">
+                    <div class="testimonials__author h06">
+                        Recording Covers
+                    </div>
+                    <p> During Covid, I taught myself how to play guitar, and I still play today. Annie's song. Landslide. Cherry Wine, anything. I take requests!</p>
+                </div>
 
                 <div class="testimonials__slide">
                     <img src="images/avatars/jr.jpg" alt="Author image" class="testimonials__avatar">
@@ -257,16 +277,6 @@
                         <!-- <span>CEO, Apple</span> -->
                     </div>
                     <p>I've been performing and competing with the Jump Rope team since my earliest days at Stanford. We do crazy flips and stunts, dance in double dutch, and jump on our butts!</p>
-
-                </div>
-
-                <div class="testimonials__slide">
-                    <img src="images/avatars/wics.jpg" alt="Author image" class="testimonials__avatar">
-                    <div class="testimonials__author h06">
-                        Stanford Women in Computer Science
-                        <!-- <span>CEO, Google</span> -->
-                    </div>
-                    <p>This community has shaped my journey at Stanford both personally and professionally. As the Co-President my junior year, I had the honor of working with hundreds of women in CS that I admired. </p>
 
                 </div>
 
@@ -280,11 +290,13 @@
                 </div>
 
                 <div class="testimonials__slide">
-                    <img src="images/avatars/guitar-min.jpg" alt="Author image" class="testimonials__avatar">
+                    <img src="images/avatars/wics.jpg" alt="Author image" class="testimonials__avatar">
                     <div class="testimonials__author h06">
-                        Recording Covers
+                        Stanford Women in Computer Science
+                        <!-- <span>CEO, Google</span> -->
                     </div>
-                    <p> During Covid, I taught myself how to play guitar, and I still play today. Annie's song. Landslide. Cherry Wine, anything. I take requests!</p>
+                    <p>This community has shaped my journey at Stanford both personally and professionally. As the Co-President my junior year, I had the honor of working with hundreds of women in CS that I admired. </p>
+
                 </div>
 
                 <div class="testimonials__slide">
@@ -317,382 +329,6 @@
         </div> <!-- end testimonials -->
 
     </div> <!-- end s-testimonials -->
-
-
-
-
-    <!-- works
-    ================================================== -->
-    <section id="works" class="s-works target-section">
-
-        <div class="row narrow section-intro has-bottom-sep">
-            <div class="col-full">
-                <h3>Portfolio</h3>
-                <h1>See My Latest Work.</h1>
-
-                <p class="lead">Dive deep into my work, both professional and personal.</p>
-            </div>
-        </div>
-
-        <div class="row masonry-wrap">
-            <div class="masonry">
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/221_poster.jpg" class="thumb-link" title="Recolorizing B&W Images" data-size="1050x700">
-                                <img src="images/portfolio/221.jpg"
-                                     srcset="images/portfolio/221.jpg 1x, images/portfolio/221.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Recolorizing B&W Images
-                            </h3>
-                            <p class="item-folio__cat">
-                                Computer Vision
-                            </p>
-                        </div>
-
-                        <a href="https://www.researchgate.net/publication/329671677_Recolorizing_Black_and_White_Landscape_Images_Using_Convolutional_Neural_Networks" class="item-folio__project-link" title="Link to Research Paper">
-                            <i class="im im-link"></i>
-                        </a>
-
-
-                        <div class="item-folio__caption">
-                            <p>Hinge Loss on CNNs to recolorize black and white landscape images.</p>
-                        </div>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/vac.jpg" class="thumb-link" title="AI Travel Itinerary Planning" data-size="1050x700">
-                                <img src="images/portfolio/cinque.jpg"
-                                     srcset="images/portfolio/cinque.jpg 1x, images/portfolio/cinque.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                AI Travel Itinerary Planning
-                            </h3>
-                            <p class="item-folio__cat">
-                                Ant Colony Optimization
-                            </p>
-                        </div>
-
-                        <a href="https://www.researchgate.net/publication/342027711_VacAItionary_AI_Travel_Itinerary_Planning_Based_on_Ant_Colony_Optimization" class="item-folio__project-link" title="Link to Research Paper">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <div class="item-folio__caption">
-                            <p>Ongoing project by Peggy and me! :)</p>
-                        </div>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/grid.jpg" class="thumb-link" data-size="800x850">
-                                <img src="images/portfolio/p4p.jpg"
-                                     srcset="images/portfolio/p4p.jpg 1x, images/portfolio/p4p.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Pixel 4 Pixel
-                            </h3>
-                            <p class="item-folio__cat">
-                                Human Computer Interaction
-                            </p>
-                        </div>
-
-                        <a href="http://web.stanford.edu/group/pixel4pixel/" class="item-folio__project-link" title="Survey Link">
-                            <i class="im im-link"></i>
-                        </a>
-                        <span class="item-folio__caption">
-                            <p> In a collaboration with the Stanford HCI group on a project to build a digital self-tracking took, I implemented a grid detection algorithm using computer vision to extract colors from a hand-drawn grid.</p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/zero.png" class="thumb-link" data-size="1050x450">
-                                <img src="images/portfolio/uofe.jpg"
-                                     srcset="images/portfolio/uofe.jpg 1x, images/portfolio/uofe.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                University of Edinburgh
-                            </h3>
-                            <p class="item-folio__cat">
-                                Neural Machine Translation
-                            </p>
-                        </div>
-
-                        <a href="https://www.researchgate.net/publication/327802566_Adversarial_Training_in_Zero-Shot_Multilingual_Neural_Machine_Translation" class="item-folio__project-link" title="Link to Research Paper">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>NLP research conducted at the University of Edinburgh under Professor Rico Sennrich. <br>Adversarial Training in Zero-Shot Multilingual Neural Machine Translation.</p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/224n_poster.jpg" class="thumb-link" title="Question and Answering" data-size="1050x700">
-                                <img src="images/portfolio/squadwide.jpg"
-                                     srcset="images/portfolio/squadwide.jpg 1x, images/portfolio/squadwide.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Question and Answering
-                            </h3>
-                            <p class="item-folio__cat">
-                                Deep NLP
-                            </p>
-                        </div>
-
-                        <a href="https://www.researchgate.net/publication/331890072_Extending_Answer_Prediction_for_Deep_Bi-directional_Transformers" class="item-folio__project-link" title="Link to Research Paper">
-                            <i class="im im-link"></i>
-                        </a>
-
-
-                        <div class="item-folio__caption">
-                            <p>Extending Answer Prediction for Deep Bi-directional Transformers.</p>
-                        </div>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/maxqpaper.jpg" class="thumb-link" data-size="950x805">
-                                <img src="images/portfolio/rocket.jpg"
-                                     srcset="images/portfolio/rocket.jpg 1x, images/portfolio/rocket.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                MAXQ: Autonomous Rockets
-                            </h3>
-                            <p class="item-folio__cat">
-                                Reinforcement Learning
-                            </p>
-                        </div>
-
-                        <a href="https://www.researchgate.net/publication/342339322_MAXQ_Hierarchical_Reinforcement_Learning" class="item-folio__project-link" title="Link to Research Paper">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>This paper aims to solve both a hierarchical reinforcement learning task and a collision avoidance problem for an autonomous rocket in a field of asteroids. This problem is modeled as a Markov decision process and uses the MAXQ decomposition and MAXQ-0 learning algorithm which are compared against Flat Q-learning.</p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-
-
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/148.jpg" class="thumb-link" data-size="1050x600">
-                                <img src="images/portfolio/148cropped.jpg"
-                                     srcset="images/portfolio/148cropped.jpg 1x, images/portfolio/148cropped.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Rendering a Scene
-                            </h3>
-                            <p class="item-folio__cat">
-                                Computer Graphics
-                            </p>
-                        </div>
-
-                        <!-- <a href="https://www.behance.net/" class="item-folio__project-link" title="">
-                            <i class="im im-link"></i>
-                        </a> -->
-
-                        <span class="item-folio__caption">
-                            <p>Testing my abilities as an interior designer and computer graphics engineer, <br>my partner and I created and rendered this scene using a Ray Tracer and Blender.</p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/axles.jpg" class="thumb-link" data-size="1000x750">
-                                <img src="images/portfolio/wheel.png"
-                                     srcset="images/portfolio/wheel.png 1x, images/portfolio/wheel.png 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                AXLES
-                            </h3>
-                            <p class="item-folio__cat">
-                                BMW Collaboration
-                            </p>
-                        </div>
-
-                        <a href="https://github.com/heylaurenz/axles_wiki/wiki" class="item-folio__project-link" title="Survey Link">
-                            <i class="im im-link"></i>
-                        </a>
-                        <span class="item-folio__caption">
-                            <p> Senior project capstone, software project with BMW combining micro-gesture recognition and gaze tracking into an interesting use case for an autonomous vehicle. See Github wiki link for more information. </p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/224s_figures.jpg" class="thumb-link" data-size="1000x575">
-                                <img src="images/portfolio/audio_wave2.jpg"
-                                     srcset="images/portfolio/audio_wave2.jpg 1x, images/portfolio/audio_wave2.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Augmenting Deep Speech Recognition
-                            </h3>
-                            <p class="item-folio__cat">
-                                Spoken Language Processing
-                            </p>
-                        </div>
-
-                        <a href="https://www.researchgate.net/publication/350340847_Augmenting_Harper_Valley_Bank_Robust_Automatic_Speech_Recognition" class="item-folio__project-link" title="Link to Research Paper">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>We mitigate state-of-the-art models' tendencies to overfit by using a combination of augmentation techniques—making pitch, amplitude, noise, and vocal tract length perturbations, as well as time and frequency masking. All our experiments outperform the baseline in multiple speech recognition metrics.</p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/maml.jpg" class="thumb-link" data-size="700x710">
-                                <img src="images/portfolio/birth_of_venus.jpg"
-                                     srcset="images/portfolio/birth_of_venus.jpg 1x, images/portfolio/birth_of_venus.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Reconstructing Paintings
-                            </h3>
-                            <p class="item-folio__cat">
-                                Computer Vision
-                            </p>
-                        </div>
-
-                        <a href="" class="item-folio__project-link" title="">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Preserving art is a test of time—often there are damaged/missing portions. With no references to how the painting was at its peak of creation, there lies a problem in creating truthful reconstructions of unique, rare art pieces. Utilizing Model Agnostic Meta Learning (MAML)on top of a CNN, we develop a regeneration model that accurately restores paintings, generalized across varying artistic complexity.</p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/cgg_gif.gif" class="thumb-link" data-size="700x450">
-                                <img src="images/portfolio/cgg.jpg"
-                                     srcset="images/portfolio/cgg.jpg 1x, images/portfolio/cgg.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Context Graph Generator
-                            </h3>
-                            <p class="item-folio__cat">
-                                Knowledge Graphs
-                            </p>
-                        </div>
-
-                        <a href="https://stanford-cs329s.github.io/reports/context-graph-generator/" class="item-folio__project-link" title="Link to Article">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Get this—55% of users read online articles for less than 15 seconds. The general problem of understanding large spans of content is painstaking, with no efficient solution. We create a tool that generates analytical, concept graphs over text, providing the first-ever standardized, structured, and interpretable medium to understand and draw connections from large spans of content.</p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-
-
-            </div>
-        </div> <!-- end masonry -->
-
-    </section> <!-- end works -->
-
-
-
-
-
 
     <!-- blog
     ================================================== -->
